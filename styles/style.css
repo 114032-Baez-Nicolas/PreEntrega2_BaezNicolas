@@ -5,10 +5,7 @@
     box-sizing: border-box;
 }
 
-html, body {
-  width: 100%;
-  max-width: 100%;
-  overflow-x: hidden;
+html {
   overflow-y: scroll;
 }
 
@@ -136,12 +133,10 @@ html, body {
 }
 
 .motos__tabla {
-    width: 100%;
-    border-collapse: collapse;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
     gap: 20px;
+    padding: 10px;
 }
 
 .motos__tabla th,
@@ -151,8 +146,9 @@ html, body {
 }
 
 .motos__tabla img {
-    width: 200px;
-    height: 150px;
+    width: 100%;
+    max-width: 200px;
+    height: auto;
     object-fit: cover;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
