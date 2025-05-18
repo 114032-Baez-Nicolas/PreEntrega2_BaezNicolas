@@ -5,8 +5,13 @@
     box-sizing: border-box;
 }
 
-html {
-  overflow-y: scroll;
+html,
+body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    word-break: break-word;
 }
 
 /* -------------------- GLOBALES -------------------- */
@@ -226,35 +231,35 @@ html {
 
 /* -------------------- MAIN FINANCIACION HTML -------------------- */
 .financiacion-card {
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  will-change: transform, box-shadow;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    will-change: transform, box-shadow;
 }
 
 .financiacion-card:hover {
-  transform: translateY(-8px) scale(1.02);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
 /* -------------------- MAIN NOSOTROS HTML -------------------- */
 .nosotros-card {
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  will-change: transform, box-shadow;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    will-change: transform, box-shadow;
 }
 
 .nosotros-card:hover {
-  transform: translateY(-8px) scale(1.02);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
 /* -------------------- MAIN CONTACTO HTML -------------------- */
 .contacto-card {
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  will-change: transform, box-shadow;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    will-change: transform, box-shadow;
 }
 
 .contacto-card:hover {
-  transform: translateY(-8px) scale(1.02);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
 /* -------------------- RESPONSIVE -------------------- */
@@ -364,4 +369,12 @@ html {
         padding: 12px 50px;
         font-size: 16px;
     }
+}
+
+/* Extra */
+img,
+iframe {
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
