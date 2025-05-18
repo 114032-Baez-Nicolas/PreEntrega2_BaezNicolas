@@ -298,6 +298,23 @@ body {
         gap: 15px;
     }
 
+    .motoCard {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .motoCard img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+    }
+
+    .motoText {
+        padding: 10px;
+        text-align: center;
+    }
+
     .btn-flotante {
         padding: 10px 30px;
         font-size: 14px;
