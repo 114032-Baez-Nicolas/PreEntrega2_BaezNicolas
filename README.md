@@ -10,6 +10,13 @@ La consigna consistió en aplicar una **estructura avanzada del sitio** utilizan
 
 ---
 
+## 🎥 Vista previa en video
+
+📺 Podés ver una demostración del proyecto en este video de YouTube:  
+🔗 [https://www.youtube.com/watch?v=gk874tHHH2Q](https://www.youtube.com/watch?v=gk874tHHH2Q)
+
+---
+
 ## 🛠️ Tecnologías utilizadas
 - HTML con etiquetas semánticas
 - CSS con propiedades avanzadas
