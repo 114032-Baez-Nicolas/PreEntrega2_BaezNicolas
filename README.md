@@ -36,7 +36,3 @@ La consigna consistió en aplicar una **estructura avanzada del sitio** utilizan
 - Animaciones con `:hover`, `transition`, `box-shadow` y `transform`.
 - Paleta de colores coherente y contrastes legibles.
 - Adaptación visual de componentes del framework mediante CSS externo.
-
----
-
-## 🗃️ Estructura del repositorio
