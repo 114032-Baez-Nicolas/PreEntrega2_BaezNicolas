@@ -5,8 +5,11 @@
     box-sizing: border-box;
 }
 
-html {
-    overflow-y: scroll;
+html, body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 /* -------------------- GLOBALES -------------------- */
