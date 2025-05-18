@@ -125,6 +125,12 @@ body {
     text-align: center;
 }
 
+.motos__contenedor {
+    width: 100%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
 .motos__titulo {
     font-size: 28px;
 }
@@ -137,16 +143,14 @@ body {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
 
-.motos__tabla {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-    gap: 20px;
-    padding: 10px;
+.motos__tabla table {
+    width: 100%;
+    border-collapse: collapse;
 }
 
 .motos__tabla th,
 .motos__tabla td {
-    padding: 15px;
+    padding: 10px;
     text-align: center;
 }
 
@@ -156,10 +160,7 @@ body {
     height: auto;
     object-fit: cover;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
-    cursor: pointer;
-    animation: aparecer 0.5s ease-in;
 }
 
 @keyframes aparecer {
@@ -288,8 +289,11 @@ body {
     }
 
     .motos__tabla img {
-        width: 140px;
-        height: auto;
+        max-width: 100px;
+    }
+
+    .motos__tabla table {
+        table-layout: fixed;
     }
 
     .footer__redes {
